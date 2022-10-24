@@ -997,6 +997,10 @@ body {
     max-width: 100%;
   }
 
+  .need__item:not(:last-child) {
+    margin-bottom: 1.25rem;
+  }
+
   .about__circle {
     margin-right: 0;
   }
