@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221017040031">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221025004658">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,91 +14,150 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
+		<header data-scroll="1" class="header">
 			<a href="#" class="header__logo">IGOR<span class="header__span">LIGHT</span></a>
 			<div class="header__menu menu">
 				<nav class="menu__body">
 					<ul class="menu__list">
 						<li class="menu__item"><a href="#" class="menu__link">
-								<p class="menu__link-text">Оплата</p>
+								<p class="menu__link-text">Работы</p>
 							</a></li>
 						<li class="menu__item"><a href="#" class="menu__link">
 								<p class="menu__link-text">Обо мне</p>
 							</a></li>
 						<li class="menu__item"><a href="#" class="menu__link">
-								<p class="menu__link-text">Контакты</p>
+								<p class="menu__link-text">Оплата</p>
 							</a></li>
 						<li class="menu__item"><a href="#" class="menu__link">
-								<p class="menu__link-text">Работы</p>
+								<p class="menu__link-text">Контакты</p>
 							</a></li>
 					</ul>
+					<div class="about__circle menu__circle">
+						<img class="about__line" src="img/line.svg" alt="нить" title="нить">
+						<img class="about__cattoy" src="img/cat-toy.svg" alt="кошачья игрушка" title="кошачья игрушка">
+						<img class="about__cattoy about__cattoy-back" src="img/cat-toy.svg" alt="кошачья игрушка" title="кошачья игрушка">
+					</div>
 				</nav>
 				<button type="button" class="menu__icon icon-menu"><span></span></button>
 			</div>
 		</header>
 		<main class="page">
-			<section class="facepage">
-				<div class="facepage__container">
-					<div class="facepage__content">
-						<h1 class="facepage__title">Привет меня зовут Игорь<h1>
-								<h2 class="facepage__subtitle">Сделаю сайт под ваши нужды качественно</h2>
+			<section class="hero">
+				<div class="hero__container">
+					<div class="hero__imgbody">
+						<div class="hero__img">
+							<img src="img/heromain.svg" alt="circlebg">
+						</div>
+						<div class="hero__img hero__img-back">
+							<img src="img/heromain.svg" alt="circlebg">
+						</div>
+						<div class="hero__img hero__img-2">
+							<img src="img/heromain.svg" alt="circlebg">
+						</div>
+						<div class="hero__img hero__img-back hero__img-back-2">
+							<img src="img/heromain.svg" alt="circlebg">
+						</div>
+					</div>
+					<div class="hero__content">
+						<h1 class="hero__title">IGORLIGHT</h1>
+						<h2 class="hero__subtitle">Web-developer</h2>
+						<p class="hero__descr">Разработка сайтов: планировка дизайн, HTML, CSS, JS, посадка на CMS систему</p>
+					</div>
+					<p class="hero__decorate">FIGMA <span>PHOTHOSHOP</span> HTML <span>CSS</span> SASS <span>SCSS</span> WEBPACK <span>GULP</span> JAVASCRIPT <span>MODX</span> FIGMA <span>PHOTHOSHOP</span> HTML <span>CSS</span> SASS <span>SCSS</span> WEBPACK <span>GULP</span> JAVASCRIPT <span>MODX</span> FIGMA <span>PHOTHOSHOP</span> HTML <span>CSS</span> SASS <span>SCSS</span> WEBPACK <span>GULP</span> JAVASCRIPT <span>MODX</span> FIGMA <span>PHOTHOSHOP</span> HTML <span>CSS</span> SASS <span>SCSS</span> WEBPACK <span>GULP</span> JAVASCRIPT <span>MODX</span> FIGMA <span>PHOTHOSHOP</span> HTML <span>CSS</span> SASS <span>SCSS</span> WEBPACK <span>GULP</span> JAVASCRIPT <span>MODX</span> FIGMA <span>PHOTHOSHOP</span> HTML <span>CSS</span> SASS <span>SCSS</span> WEBPACK <span>GULP</span> JAVASCRIPT <span>MODX</span> FIGMA <span>PHOTHOSHOP</span> HTML <span>CSS</span> SASS <span>SCSS</span> WEBPACK <span>GULP</span> JAVASCRIPT <span>MODX</span> FIGMA <span>PHOTHOSHOP</span></p>
+				</div>
+			</section>
+			<section class="need">
+				<div class="need__container">
+					<div class="need__top">
+						<h2 class="need__title title">Зачем вам сайт ?</h2>
+						<div class="need__bird">
+							<img src="img/bird.svg" alt="bird" title="bird">
+						</div>
+					</div>
+					<div class="need__body">
+						<div class="need__item">
+							<h3 class="need__name">Клиенты</h3>
+							<p class="need__text">Многие пользователи прежде чем найти какой либо продукт или услугу, вбивают запрос
+								в поисковые системы (google,yandex и т.п.) и соответственно сперва заходят на те компании которые
+								выдают поисковики. Как итог вы теряете часть потенциальных клиентов</p>
+						</div>
+						<div class="need__item">
+							<h3 class="need__name">Имидж</h3>
+							<p class="need__text">К примеру у вас на выбор стоит две-три компании, и вы не можете решить к какой
+								компании обратиться за услугой или же товаром, скорее всего вы выберете ту компанию, у которой будет
+								свой сайт, и это будет давать вам ощущение надежности и профессионализма</p>
+						</div>
+						<div class="need__item">
+							<h3 class="need__name">Узнаваемость</h3>
+							<p class="need__text">У вашего бизнеса появится "лицо" вы можете предоставить всю необходимую информацию
+								своим клиентам, оставить свои контактные данные для быстрой связи, разместить карту, указать часы
+								работы, тарифы на ваши услуги и многое другое</p>
+						</div>
 					</div>
 				</div>
-				<ul class="contacts">
-					<li class="contacts__item"><a href="#" class="contacts__link">
-							<p class="contacts__text">Телефон</p><span>+79141056954</span>
-						</a></li>
-					<li class="contacts__item"><a href="#" class="contacts__link">
-							<p class="contacts__text">Телеграм</p><span>@Igorlajty</span>
-						</a></li>
-					<li class="contacts__item"><a href="#" class="contacts__link">
-							<p class="contacts__text">Ватсап</p><span>+79141056954</span>
-						</a></li>
-				</ul>
-				<div class="facepage__gradient"></div>
 			</section>
 			<section class="about">
 				<div class="about__container">
-					<h2 class="about__title title">О чем сайт ?</h2>
-					<p class="about__text">Я создаю небольшие проекты, к примеру у вас небольшой магазин, или вы продаете свою продукцию, возможно вы работаете как самозанятый и нужен сайт визитка и как правило в веб студиях сделать сайт стоит довольно дорого, а если и удастся разыскать дешевый вариант, то с большей вероятностью ваш сайт будет сделан на шаблоне, а их как правило очень тяжело поддерживать, они лагают, плохо оптимизированы для поисковиков.</p>
-					<p class="about__text">Что предлагаю Я ? хочу для вас максимально автоматизировать весь процесс разработки сайта, то есть вам не обязательно разбираться какой домен/хостинг выбрать, какую семантику использовать в верстке, или на какую cms установить ваш сайт и так далее. В идеале это выглядит так, что мы с вами договариваемся, если у вас нет дизайна, я его разрабатываю(без особого фанатизма) и корректируюсь с вами, как с дизайном будет всё решено, я берусь за само создание сайта, в конце вы уже получаете свой готовый и запущенный сайт с логином и паролем от сайта.</p>
-				</div>
-				<div class="about__gradient"></div>
-			</section>
-			<section class="becalm">
-				<div class="becalm__inner">
-					<div class="becalm__video">
-						<video class="becalm__video-media" autoplay muted loop>
-							<source src="img/warm.webm">
-							<source src="img/warm.mp4">
-						</video>
+					<div class="about__top">
+						<div class="about__cat">
+							<img src="img/cat.svg" alt="кот" title="кот">
+						</div>
+						<h2 class="about__title title">Обо мне</h2>
 					</div>
-				</div>
-				<p class="becalm__text">Главное быть дружелюбнее и лояльнее друг к другу</p>
-			</section>
-			<section class="whyme">
-				<div class="facepage__gradient whyme__gradient"></div>
-				<div class="whyme__container">
-					<h2 class="whyme__title title">Зачем вам сайт ?</h2>
-					<div class="whyme__content">
-						<div class="whyme__item">
-							<h2 class="whyme__subtitle">Покупатели</h2>
-							<p class="whyme__text">Многие пользователи прежде чем найти какой то продукт или услугу, вбивают запрос в google или yandex и соответственно сперва заходят на те организации/компании которые выдают поисковики.</p>
-						</div>
-						<div class="whyme__item">
-							<h2 class="whyme__subtitle">Узнаваемость</h2>
-							<p class="whyme__text"></p>
-						</div>
-						<div class="whyme__item whymeitem-middle">
-							<h2 class="whyme__subtitle">Репутация и профессионализм</h2>
-							<p class="whyme__text">Конечно, сайт может создать и поддерживать имидж вашей компании. Если у меня стоит на выбор две компании, то я всегда отдам приоритет той компании у которой есть свой сайт, как минимум это выглядит надежнее и профессиональнее</p>
+					<div class="about__content">
+						<p class="about__text">Я фокусируюсь на небольшие и средние сайты, от визиток/лендингов до интернет магазинов, если у вас большой проект советую обратиться в веб студии, одному такие проекты делать уж простите :) Занимаюсь Я всем сам от А до Я, а именно изучение вашего бизнеса, оценка конкурентов,
+							дизайн, верстка, программирование, посадка на CMS систему MODX. В своих работах стараюсь писать чистый код(легко поддерживаемый), и иду в ногу со временем использую современный код. Владею технологиями: figma, photoshop, HTML, CSS, SCSS, БЭМ, JS, немного PHP.</p>
+						<div class="about__circle">
+							<img class="about__line" src="img/line.svg" alt="нить" title="нить">
+							<img class="about__cattoy" src="img/cat-toy.svg" alt="кошачья игрушка" title="кошачья игрушка">
+							<img class="about__cattoy about__cattoy-back" src="img/cat-toy.svg" alt="кошачья игрушка" title="кошачья игрушка">
 						</div>
 					</div>
 				</div>
+			</section>
+			<section class="etc">
+				<div class="etc__container">
+					<div class="etc__title title">Ответы на вопросы</div>
+					<div class="etc__content">
+						<div data-spollers data-one-spoller class="spollers">
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">
+									Почему цены на сайт так сильно отличаются ?
+								</button>
+								<div class="spollers__body">
+									Дело в том, что существуют так называемые конструкторы сайтов, где любой не разбирающийся в "сайтостроении" человек может сделать сайт, путем перетаскивания блоков или того хуже просто взять готовый шаблон и подставить текст, минусы такого решения: во первых у них свои хостинги (сервера где будет находится ваш сайт) доступа к исходному коду или серверам у вас нету, у них так и сказано в правилах, что сайт пренадлежит ИМ, так что о каком либо расширении или переносе сайта думать не приходится. Во вторых множество ограничений как места на сервере, так и кол-во страниц. В третьих конечно же цена, это может по началу показаться выгодным решением, но если у вас сайт на чистом хостинге и CMS в год обслуживание сайта вам обойдется примерно в 3000р, если же вы используете конструктор то готовьте тысяч 10 000 - 12 000 р, также какая либо дополнительная функция - платите.
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">
+									Почему я использую CMS ModX, а не например 1С битрикс ?
+								</button>
+								<div class="spollers__body">
+									Всё просто - удобство, у каждого программиста есть своя любимая cms будь то ModX, Wordpress, 1С-битрикс и т.п. как вы наверно знаете 1C битрикс очень дорогое решение, я считаю что 1С битрикс хороший вариант, только в том случае если у вас нууууу очень большая компания.
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">
+									Что по поводу оплаты ?
+								</button>
+								<div class="spollers__body">У меня пока цена не устаканилась, но очевидно куда меньше чем в веб студиях, так как всё делаю сам, ориентировочно 10 000р - 20 000р, по договоренности, надеюсь мы с вами к ней прийдем</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">
+									Где я нахожусь ?
+								</button>
+								<div class="spollers__body">Россия, республика Саха(Якутия), г.Якутск</div>
+							</div>
+						</div>
+						<div class="etc__img">
+							<img src="img/statue.svg" alt="статуя" title="статуя">
+						</div>
+					</div>
 			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
+				Здесь будет фуютер
 			</div>
 		</footer>
 	</div>
@@ -112,7 +171,7 @@
 		</div>
 	</div>
 </div> -->
-	<script src="js/app.min.js?_v=20221017040031"></script>
+	<script src="js/app.min.js?_v=20221025004658"></script>
 </body>
 
 </html>
